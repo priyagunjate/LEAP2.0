@@ -38,7 +38,7 @@ st.sidebar.markdown(f'''<div class="card text-white bg-info mb-3" style="width: 
 
 st.sidebar.markdown(f'''<div class="card text-white bg-danger mb-3" style="width: 18rem">
   <div class="card-body">
-    <h5 class="card-title">Total Deaths</h5>
+    <h5 class="card-title">recovered cases</h5>
     <p class="card-text">{recovered_cases:,d}</p>
   </div>
 </div>''', unsafe_allow_html=True)
